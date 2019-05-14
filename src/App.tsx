@@ -3,7 +3,7 @@ import MyHeader from './components/MyHeader';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <div className='App'>
       <MyHeader />
     </div>
   );
