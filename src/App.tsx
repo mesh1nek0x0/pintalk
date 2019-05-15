@@ -6,8 +6,8 @@ import NotFound from './components/NotFound';
 const App: React.FC<{}> = () => (
     <div className='Container'>
       <Switch>
-        <Route path='/404' component={NotFound} />
-        <Route path='/' component={Home} />
+        <Route exact path='/404' component={NotFound} />
+        <Route exact path='/' component={Home} />
         <Redirect to='/' />
       </Switch>
     </div>
