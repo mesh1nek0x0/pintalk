@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import MyHeader from '../../components/MyHeader';
+import MyFooter from '../../components/MyFooter';
 
 const Home: FC = () => {
     return (
@@ -8,6 +9,7 @@ const Home: FC = () => {
             <div className="Home">
                 Home Component
             </div>
+            <MyFooter />
         </>
     );
 };
